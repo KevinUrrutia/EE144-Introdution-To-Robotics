@@ -1,0 +1,8 @@
+prefix=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/install
+
+Name: ee144f21
+Description: Description of ee144f21
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
