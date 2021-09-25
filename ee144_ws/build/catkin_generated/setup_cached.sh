@@ -8,7 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel:/opt/ros/kinetic'
-export LD_LIBRARY_PATH='/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu'
+export LD_LIBRARY_PATH='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu'
 export PKG_CONFIG_PATH='/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig'
 export PWD='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build'
 export ROSLISP_PACKAGE_DIRECTORIES='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/common-lisp'
