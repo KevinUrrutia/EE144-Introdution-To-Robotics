@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/install -G Unix Makefiles
