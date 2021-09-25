@@ -7,9 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel:/opt/ros/kinetic'
-export LD_LIBRARY_PATH='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu'
-export PKG_CONFIG_PATH='/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig'
+export CMAKE_PREFIX_PATH="/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build'
+export PYTHONPATH="/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH='/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src:/opt/ros/kinetic/share'
+export ROS_PACKAGE_PATH="/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src:$ROS_PACKAGE_PATH"

@@ -1,0 +1,8 @@
+prefix=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel
+
+Name: interbotix_moveit
+Description: Description of interbotix_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

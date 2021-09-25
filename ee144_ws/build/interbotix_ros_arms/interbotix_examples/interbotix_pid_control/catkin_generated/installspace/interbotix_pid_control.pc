@@ -1,0 +1,8 @@
+prefix=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/install
+
+Name: interbotix_pid_control
+Description: Description of interbotix_pid_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: interbotix_sdk roscpp sensor_msgs

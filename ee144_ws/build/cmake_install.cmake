@@ -127,6 +127,16 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/gtest/cmake_install.cmake")
   include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/ee144f21/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_descriptions/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_moveit/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_sdk/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_pid_control/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_puppet_control/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/cmake_install.cmake")
+  include("/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_gazebo/cmake_install.cmake")
 
 endif()
 
