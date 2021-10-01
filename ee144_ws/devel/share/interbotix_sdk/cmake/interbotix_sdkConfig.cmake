@@ -67,14 +67,14 @@ set(interbotix_sdk_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(interbotix_sdk_SOURCE_PREFIX /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk)
-  set(interbotix_sdk_DEVEL_PREFIX /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel)
+  set(interbotix_sdk_SOURCE_PREFIX /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk)
+  set(interbotix_sdk_DEVEL_PREFIX /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel)
   set(interbotix_sdk_INSTALL_PREFIX "")
   set(interbotix_sdk_PREFIX ${interbotix_sdk_DEVEL_PREFIX})
 else()
   set(interbotix_sdk_SOURCE_PREFIX "")
   set(interbotix_sdk_DEVEL_PREFIX "")
-  set(interbotix_sdk_INSTALL_PREFIX /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/install)
+  set(interbotix_sdk_INSTALL_PREFIX /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/install)
   set(interbotix_sdk_PREFIX ${interbotix_sdk_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(interbotix_sdk_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include;/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include " STREQUAL " ")
+if(NOT "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include;/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include " STREQUAL " ")
   set(interbotix_sdk_INCLUDE_DIRS "")
-  set(_include_dirs "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include;/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include")
+  set(_include_dirs "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include;/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include;/home/k
         message(FATAL_ERROR "Project 'interbotix_sdk' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'interbotix_sdk' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'interbotix_sdk' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/${idir}'.  ${_report}")
     endif()
     _list_append_unique(interbotix_sdk_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib;/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

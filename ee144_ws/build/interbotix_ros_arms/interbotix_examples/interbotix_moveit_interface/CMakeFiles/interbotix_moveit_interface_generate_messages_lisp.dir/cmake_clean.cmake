@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interbotix_moveit_interface_generate_messages_lisp"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/common-lisp/ros/interbotix_moveit_interface/srv/MoveItPlan.lisp"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/common-lisp/ros/interbotix_moveit_interface/srv/MoveItPlan.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

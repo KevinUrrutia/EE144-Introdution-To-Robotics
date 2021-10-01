@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for topic_tools_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/to
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
 
 interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/topic_tools_generate_messages_lisp.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool && $(CMAKE_COMMAND) -P CMakeFiles/topic_tools_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool && $(CMAKE_COMMAND) -P CMakeFiles/topic_tools_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/topic_tools_generate_messages_lisp.dir/clean
 
 interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/topic_tools_generate_messages_lisp.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/topic_tools_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/topic_tools_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/CMakeFiles/topic_tools_generate_messages_lisp.dir/depend
 

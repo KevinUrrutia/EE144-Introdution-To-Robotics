@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for _interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
 include interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/progress.make
 
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_joy_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg/ArmJoyControl.msg 
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_joy_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg/ArmJoyControl.msg 
 
 _interbotix_joy_control_generate_messages_check_deps_ArmJoyControl: interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl
 _interbotix_joy_control_generate_messages_check_deps_ArmJoyControl: interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/build.make
@@ -67,10 +67,10 @@ interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_inter
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/build
 
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && $(CMAKE_COMMAND) -P CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && $(CMAKE_COMMAND) -P CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/clean
 
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/_interbotix_joy_control_generate_messages_check_deps_ArmJoyControl.dir/depend
 

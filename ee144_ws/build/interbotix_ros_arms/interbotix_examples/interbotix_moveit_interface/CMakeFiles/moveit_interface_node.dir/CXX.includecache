@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlan.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlan.h
 ros/service_traits.h
 -
 interbotix_moveit_interface/MoveItPlanRequest.h
@@ -14,7 +14,7 @@ interbotix_moveit_interface/MoveItPlanRequest.h
 interbotix_moveit_interface/MoveItPlanResponse.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlanRequest.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlanRequest.h
 string
 -
 vector
@@ -32,7 +32,7 @@ ros/message_operations.h
 geometry_msgs/Pose.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlanResponse.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlanResponse.h
 string
 -
 vector
@@ -50,9 +50,9 @@ ros/message_operations.h
 std_msgs/String.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/include/interbotix_moveit_interface/moveit_interface.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/include/interbotix_moveit_interface/moveit_interface.h
 interbotix_moveit_interface/MoveItPlan.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/include/interbotix_moveit_interface/interbotix_moveit_interface/MoveItPlan.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/include/interbotix_moveit_interface/interbotix_moveit_interface/MoveItPlan.h
 moveit/move_group_interface/move_group_interface.h
 -
 moveit/planning_scene_interface/planning_scene_interface.h
@@ -72,13 +72,13 @@ geometry_msgs/Pose.h
 geometry_msgs/Quaternion.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp
 interbotix_moveit_interface/moveit_interface.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/interbotix_moveit_interface/moveit_interface.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/interbotix_moveit_interface/moveit_interface.h
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp
 interbotix_moveit_interface/moveit_interface.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/interbotix_moveit_interface/moveit_interface.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/interbotix_moveit_interface/moveit_interface.h
 
 /opt/ros/kinetic/include/actionlib/action_definition.h
 

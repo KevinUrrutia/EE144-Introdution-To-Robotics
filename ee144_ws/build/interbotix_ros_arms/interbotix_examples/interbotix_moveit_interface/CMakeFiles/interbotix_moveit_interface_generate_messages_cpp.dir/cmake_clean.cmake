@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interbotix_moveit_interface_generate_messages_cpp"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlan.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_moveit_interface/MoveItPlan.h"
 )
 
 # Per-language clean rules from dependency scanning.

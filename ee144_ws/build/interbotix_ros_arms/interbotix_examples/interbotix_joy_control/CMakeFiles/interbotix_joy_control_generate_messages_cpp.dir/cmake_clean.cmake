@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interbotix_joy_control_generate_messages_cpp"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_joy_control/ArmJoyControl.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_joy_control/ArmJoyControl.h"
 )
 
 # Per-language clean rules from dependency scanning.

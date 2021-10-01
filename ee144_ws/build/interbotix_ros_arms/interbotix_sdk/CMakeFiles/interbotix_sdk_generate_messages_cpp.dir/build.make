@@ -43,71 +43,71 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for interbotix_sdk_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/progress.make
 
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
-interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
+interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h
 
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from interbotix_sdk/SingleCommand.msg"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from interbotix_sdk/JointCommands.msg"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from interbotix_sdk/JointCommands.msg"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg -Iinterbotix_sdk:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from interbotix_sdk/SingleCommand.msg"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg -Iinterbotix_sdk:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from interbotix_sdk/OperatingModes.srv"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from interbotix_sdk/RegisterValues.srv"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from interbotix_sdk/FirmwareGains.srv"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from interbotix_sdk/OperatingModes.srv"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv -Iinterbotix_sdk:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from interbotix_sdk/RegisterValues.srv"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv -Iinterbotix_sdk:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from interbotix_sdk/RobotInfo.srv"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from interbotix_sdk/RobotInfo.srv"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv -Iinterbotix_sdk:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from interbotix_sdk/FirmwareGains.srv"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk && /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv -Iinterbotix_sdk:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_sdk -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 interbotix_sdk_generate_messages_cpp: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp
-interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h
-interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
-interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h
-interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h
-interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
-interbotix_sdk_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
+interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
+interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h
+interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
+interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h
+interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
+interbotix_sdk_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h
 interbotix_sdk_generate_messages_cpp: interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/build.make
 
 .PHONY : interbotix_sdk_generate_messages_cpp
@@ -118,10 +118,10 @@ interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_c
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/build
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_sdk && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/clean
 
 interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_sdk /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_sdk /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_sdk/CMakeFiles/interbotix_sdk_generate_messages_cpp.dir/depend
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_diagnostic_tool/MotorTemps.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_diagnostic_tool/MotorTemps.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
 string
 -
 vector
@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
 ros/service_traits.h
 -
 interbotix_sdk/RegisterValuesRequest.h
@@ -46,7 +46,7 @@ interbotix_sdk/RegisterValuesRequest.h
 interbotix_sdk/RegisterValuesResponse.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesRequest.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesRequest.h
 string
 -
 vector
@@ -62,7 +62,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesResponse.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesResponse.h
 string
 -
 vector
@@ -78,7 +78,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
 ros/service_traits.h
 -
 interbotix_sdk/RobotInfoRequest.h
@@ -86,7 +86,7 @@ interbotix_sdk/RobotInfoRequest.h
 interbotix_sdk/RobotInfoResponse.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoRequest.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoRequest.h
 string
 -
 vector
@@ -102,7 +102,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoResponse.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoResponse.h
 string
 -
 vector
@@ -118,7 +118,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/diagnostic_tool_node.cpp
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/diagnostic_tool_node.cpp
 cstdlib
 -
 ros/ros.h
@@ -126,13 +126,13 @@ ros/ros.h
 sensor_msgs/JointState.h
 -
 interbotix_sdk/JointCommands.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_sdk/JointCommands.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_sdk/JointCommands.h
 interbotix_sdk/RobotInfo.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_sdk/RobotInfo.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_sdk/RobotInfo.h
 interbotix_sdk/RegisterValues.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_sdk/RegisterValues.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_sdk/RegisterValues.h
 interbotix_diagnostic_tool/MotorTemps.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_diagnostic_tool/MotorTemps.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_diagnostic_tool/src/interbotix_diagnostic_tool/MotorTemps.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

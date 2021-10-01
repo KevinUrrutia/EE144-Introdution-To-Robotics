@@ -67,14 +67,14 @@ set(ee144f21_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(ee144f21_SOURCE_PREFIX /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/ee144f21)
-  set(ee144f21_DEVEL_PREFIX /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel)
+  set(ee144f21_SOURCE_PREFIX /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/ee144f21)
+  set(ee144f21_DEVEL_PREFIX /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel)
   set(ee144f21_INSTALL_PREFIX "")
   set(ee144f21_PREFIX ${ee144f21_DEVEL_PREFIX})
 else()
   set(ee144f21_SOURCE_PREFIX "")
   set(ee144f21_DEVEL_PREFIX "")
-  set(ee144f21_INSTALL_PREFIX /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/install)
+  set(ee144f21_INSTALL_PREFIX /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/install)
   set(ee144f21_PREFIX ${ee144f21_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/install/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/install/lib;/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

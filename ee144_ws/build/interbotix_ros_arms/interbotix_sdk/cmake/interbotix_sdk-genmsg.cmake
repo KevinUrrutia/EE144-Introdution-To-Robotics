@@ -2,7 +2,7 @@
 
 message(STATUS "interbotix_sdk: 2 messages, 4 services")
 
-set(MSG_I_FLAGS "-Iinterbotix_sdk:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iinterbotix_sdk:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,34 +17,34 @@ add_custom_target(interbotix_sdk_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
 add_custom_target(_interbotix_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" ""
 )
 
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
 add_custom_target(_interbotix_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" ""
 )
 
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
 add_custom_target(_interbotix_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" ""
 )
 
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
 add_custom_target(_interbotix_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" ""
 )
 
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
 add_custom_target(_interbotix_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" ""
 )
 
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
 add_custom_target(_interbotix_sdk_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "interbotix_sdk" "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" ""
 )
 
 #
@@ -54,13 +54,13 @@ add_custom_target(_interbotix_sdk_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_msg_cpp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/interbotix_sdk
@@ -68,25 +68,25 @@ _generate_msg_cpp(interbotix_sdk
 
 ### Generating Services
 _generate_srv_cpp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_cpp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_cpp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_cpp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/interbotix_sdk
@@ -104,17 +104,17 @@ add_custom_target(interbotix_sdk_generate_messages_cpp
 add_dependencies(interbotix_sdk_generate_messages interbotix_sdk_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_cpp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_cpp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_cpp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_cpp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_cpp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_cpp _interbotix_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -127,13 +127,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS interbotix_sdk_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/interbotix_sdk
 )
 _generate_msg_eus(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/interbotix_sdk
@@ -141,25 +141,25 @@ _generate_msg_eus(interbotix_sdk
 
 ### Generating Services
 _generate_srv_eus(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_eus(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_eus(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_eus(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/interbotix_sdk
@@ -177,17 +177,17 @@ add_custom_target(interbotix_sdk_generate_messages_eus
 add_dependencies(interbotix_sdk_generate_messages interbotix_sdk_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_eus _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_eus _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_eus _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_eus _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_eus _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_eus _interbotix_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -200,13 +200,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS interbotix_sdk_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_msg_lisp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/interbotix_sdk
@@ -214,25 +214,25 @@ _generate_msg_lisp(interbotix_sdk
 
 ### Generating Services
 _generate_srv_lisp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_lisp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_lisp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_lisp(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/interbotix_sdk
@@ -250,17 +250,17 @@ add_custom_target(interbotix_sdk_generate_messages_lisp
 add_dependencies(interbotix_sdk_generate_messages interbotix_sdk_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_lisp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_lisp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_lisp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_lisp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_lisp _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_lisp _interbotix_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -273,13 +273,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS interbotix_sdk_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/interbotix_sdk
 )
 _generate_msg_nodejs(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/interbotix_sdk
@@ -287,25 +287,25 @@ _generate_msg_nodejs(interbotix_sdk
 
 ### Generating Services
 _generate_srv_nodejs(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_nodejs(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_nodejs(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_nodejs(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/interbotix_sdk
@@ -323,17 +323,17 @@ add_custom_target(interbotix_sdk_generate_messages_nodejs
 add_dependencies(interbotix_sdk_generate_messages interbotix_sdk_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_nodejs _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_nodejs _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_nodejs _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_nodejs _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_nodejs _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_nodejs _interbotix_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -346,13 +346,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS interbotix_sdk_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/interbotix_sdk
 )
 _generate_msg_py(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/interbotix_sdk
@@ -360,25 +360,25 @@ _generate_msg_py(interbotix_sdk
 
 ### Generating Services
 _generate_srv_py(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_py(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_py(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/interbotix_sdk
 )
 _generate_srv_py(interbotix_sdk
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/interbotix_sdk
@@ -396,17 +396,17 @@ add_custom_target(interbotix_sdk_generate_messages_py
 add_dependencies(interbotix_sdk_generate_messages interbotix_sdk_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_py _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RobotInfo.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_py _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_py _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/FirmwareGains.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_py _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/SingleCommand.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/OperatingModes.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_py _interbotix_sdk_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/msg/JointCommands.msg" NAME_WE)
+get_filename_component(_filename "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/srv/RegisterValues.srv" NAME_WE)
 add_dependencies(interbotix_sdk_generate_messages_py _interbotix_sdk_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

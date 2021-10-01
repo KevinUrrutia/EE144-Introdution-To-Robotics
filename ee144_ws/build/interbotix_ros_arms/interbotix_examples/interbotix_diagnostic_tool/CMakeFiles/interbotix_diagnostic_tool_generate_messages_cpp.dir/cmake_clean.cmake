@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interbotix_diagnostic_tool_generate_messages_cpp"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_diagnostic_tool/MotorTemps.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_diagnostic_tool/MotorTemps.h"
 )
 
 # Per-language clean rules from dependency scanning.

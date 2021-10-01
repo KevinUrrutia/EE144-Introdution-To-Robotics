@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for interbotix_joy_control_genpy.
 
@@ -63,10 +63,10 @@ interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interb
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_genpy.dir/build
 
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_genpy.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_joy_control_genpy.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_joy_control_genpy.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_genpy.dir/clean
 
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_genpy.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_genpy.dir/depend
 

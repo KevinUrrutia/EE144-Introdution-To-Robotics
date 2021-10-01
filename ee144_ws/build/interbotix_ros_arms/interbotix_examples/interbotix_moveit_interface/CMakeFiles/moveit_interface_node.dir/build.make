@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Include any dependencies generated for this target.
 include interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/depend.make
@@ -58,17 +58,17 @@ include interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMak
 include interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/flags.make
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/flags.make
-interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o -c /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp
+interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o -c /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.i"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp > CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.i
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp > CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.i
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.s"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.s
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface_node.cpp -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.s
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o.requires:
 
@@ -82,17 +82,17 @@ interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/m
 
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/flags.make
-interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o -c /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp
+interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o -c /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.i"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp > CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.i
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp > CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.i
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.s"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.s
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/src/moveit_interface.cpp -o CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.s
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o.requires:
 
@@ -113,115 +113,115 @@ moveit_interface_node_OBJECTS = \
 # External object files for target moveit_interface_node
 moveit_interface_node_EXTERNAL_OBJECTS =
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/build.make
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_warehouse.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libwarehouse_ros.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_visual_tools.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools_gui.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools_remote_control.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools_imarker_simple.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf_conversions.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libkdl_conversions.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libchomp_motion_planner.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libimage_transport.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/libPocoFoundation.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libroslib.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librospack.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_exceptions.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_background_processing.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_model.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_transforms.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_state.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_profiler.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_distance_field.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_distance_field.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_utils.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libfcl.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libgeometric_shapes.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liboctomap.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liboctomath.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libkdl_parser.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liburdf.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librandom_numbers.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libsrdfdom.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libactionlib.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf2.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librostime.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_interface_node.dir/link.txt --verbose=$(VERBOSE)
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface_node.cpp.o
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/src/moveit_interface.cpp.o
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/build.make
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_common_planning_interface_objects.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_interface.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_move_group_interface.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_warehouse.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libwarehouse_ros.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_pick_place_planner.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_move_group_capabilities_base.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_visual_tools.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools_gui.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools_remote_control.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librviz_visual_tools_imarker_simple.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf_conversions.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libkdl_conversions.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_rdf_loader.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematics_plugin_loader.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_model_loader.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_constraint_sampler_manager_loader.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_pipeline.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_trajectory_execution_manager.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_plan_execution.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_scene_monitor.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_plugin_loader.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libchomp_motion_planner.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_lazy_free_space_updater.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_point_containment_filter.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_occupancy_map_monitor.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_pointcloud_octomap_updater_core.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_semantic_world.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libimage_transport.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/libPocoFoundation.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libroslib.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librospack.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_exceptions.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_background_processing.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematics_base.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_model.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_transforms.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_state.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_robot_trajectory.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_interface.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_detection.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_detection_fcl.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematic_constraints.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_scene.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_constraint_samplers.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_planning_request_adapter.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_profiler.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_trajectory_processing.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_distance_field.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_collision_distance_field.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_kinematics_metrics.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_dynamics_solver.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmoveit_utils.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libfcl.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libgeometric_shapes.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liboctomap.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liboctomath.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libkdl_parser.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/liburdf.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librandom_numbers.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libsrdfdom.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libactionlib.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libtf2.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/librostime.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node: interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moveit_interface_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/build: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node
+interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/build: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/interbotix_moveit_interface/moveit_interface_node
 
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/build
 
@@ -231,10 +231,10 @@ interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/m
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/requires
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && $(CMAKE_COMMAND) -P CMakeFiles/moveit_interface_node.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface && $(CMAKE_COMMAND) -P CMakeFiles/moveit_interface_node.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/clean
 
 interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/CMakeFiles/moveit_interface_node.dir/depend
 

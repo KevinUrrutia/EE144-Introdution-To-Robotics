@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interbotix_diagnostic_tool_generate_messages_py"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/python2.7/dist-packages/interbotix_diagnostic_tool/msg/_MotorTemps.py"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/python2.7/dist-packages/interbotix_diagnostic_tool/msg/__init__.py"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/python2.7/dist-packages/interbotix_diagnostic_tool/msg/_MotorTemps.py"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/lib/python2.7/dist-packages/interbotix_diagnostic_tool/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

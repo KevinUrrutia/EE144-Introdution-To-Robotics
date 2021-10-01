@@ -43,27 +43,27 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for interbotix_turret_control_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/progress.make
 
-interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h
+interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h
 
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg/TurretJoyControl.msg
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from interbotix_turret_control/TurretJoyControl.msg"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg/TurretJoyControl.msg -Iinterbotix_turret_control:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_turret_control -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg/TurretJoyControl.msg
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from interbotix_turret_control/TurretJoyControl.msg"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg/TurretJoyControl.msg -Iinterbotix_turret_control:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_turret_control -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 interbotix_turret_control_generate_messages_cpp: interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp
-interbotix_turret_control_generate_messages_cpp: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h
+interbotix_turret_control_generate_messages_cpp: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h
 interbotix_turret_control_generate_messages_cpp: interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/build.make
 
 .PHONY : interbotix_turret_control_generate_messages_cpp
@@ -74,10 +74,10 @@ interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/int
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/build
 
 interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/clean
 
 interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/interbotix_turret_control_generate_messages_cpp.dir/depend
 

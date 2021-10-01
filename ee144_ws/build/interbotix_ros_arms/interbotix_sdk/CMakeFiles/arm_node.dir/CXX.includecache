@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h
 ros/service_traits.h
 -
 interbotix_sdk/FirmwareGainsRequest.h
@@ -14,7 +14,7 @@ interbotix_sdk/FirmwareGainsRequest.h
 interbotix_sdk/FirmwareGainsResponse.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGainsRequest.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGainsRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGainsResponse.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGainsResponse.h
 string
 -
 vector
@@ -46,7 +46,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h
 string
 -
 vector
@@ -62,7 +62,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h
 ros/service_traits.h
 -
 interbotix_sdk/OperatingModesRequest.h
@@ -70,7 +70,7 @@ interbotix_sdk/OperatingModesRequest.h
 interbotix_sdk/OperatingModesResponse.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModesRequest.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModesRequest.h
 string
 -
 vector
@@ -86,7 +86,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModesResponse.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModesResponse.h
 string
 -
 vector
@@ -102,7 +102,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h
 ros/service_traits.h
 -
 interbotix_sdk/RegisterValuesRequest.h
@@ -110,7 +110,7 @@ interbotix_sdk/RegisterValuesRequest.h
 interbotix_sdk/RegisterValuesResponse.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesRequest.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesRequest.h
 string
 -
 vector
@@ -126,7 +126,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesResponse.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValuesResponse.h
 string
 -
 vector
@@ -142,7 +142,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h
 ros/service_traits.h
 -
 interbotix_sdk/RobotInfoRequest.h
@@ -150,7 +150,7 @@ interbotix_sdk/RobotInfoRequest.h
 interbotix_sdk/RobotInfoResponse.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoRequest.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoRequest.h
 string
 -
 vector
@@ -166,7 +166,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoResponse.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfoResponse.h
 string
 -
 vector
@@ -182,7 +182,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h
 string
 -
 vector
@@ -198,7 +198,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/arm_obj.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/arm_obj.h
 ros/ros.h
 -
 urdf/model.h
@@ -224,21 +224,21 @@ control_msgs/FollowJointTrajectoryResult.h
 dynamixel_workbench_toolbox/dynamixel_workbench.h
 -
 interbotix_sdk/OperatingModes.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/OperatingModes.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/OperatingModes.h
 interbotix_sdk/RegisterValues.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/RegisterValues.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/RegisterValues.h
 interbotix_sdk/JointCommands.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/JointCommands.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/JointCommands.h
 interbotix_sdk/SingleCommand.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/SingleCommand.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/SingleCommand.h
 interbotix_sdk/FirmwareGains.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/FirmwareGains.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/FirmwareGains.h
 interbotix_sdk/RobotInfo.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/RobotInfo.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/RobotInfo.h
 interbotix_sdk/pid.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/pid.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/interbotix_sdk/pid.h
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/pid.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/include/interbotix_sdk/pid.h
 vector
 -
 cstdlib
@@ -246,17 +246,17 @@ cstdlib
 cstdint
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/arm_node.cpp
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/arm_node.cpp
 interbotix_sdk/arm_obj.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/interbotix_sdk/arm_obj.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/interbotix_sdk/arm_obj.h
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/arm_obj.cpp
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/arm_obj.cpp
 interbotix_sdk/arm_obj.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/interbotix_sdk/arm_obj.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/interbotix_sdk/arm_obj.h
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/pid.cpp
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/pid.cpp
 interbotix_sdk/pid.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/interbotix_sdk/pid.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_sdk/src/interbotix_sdk/pid.h
 
 /opt/ros/kinetic/include/actionlib/action_definition.h
 

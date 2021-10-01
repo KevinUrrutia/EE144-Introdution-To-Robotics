@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_turret_control/TurretJoyControl.h
 string
 -
 vector
@@ -22,13 +22,13 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/src/turret_control_joy_node.cpp
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/src/turret_control_joy_node.cpp
 ros/ros.h
 -
 sensor_msgs/Joy.h
 -
 interbotix_turret_control/TurretJoyControl.h
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/src/interbotix_turret_control/TurretJoyControl.h
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/src/interbotix_turret_control/TurretJoyControl.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

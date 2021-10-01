@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interbotix_joy_control_generate_messages_eus"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

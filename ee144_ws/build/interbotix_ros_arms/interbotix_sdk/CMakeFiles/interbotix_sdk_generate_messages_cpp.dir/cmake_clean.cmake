@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interbotix_sdk_generate_messages_cpp"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h"
-  "/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/JointCommands.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/SingleCommand.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RegisterValues.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/OperatingModes.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/RobotInfo.h"
+  "/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/include/interbotix_sdk/FirmwareGains.h"
 )
 
 # Per-language clean rules from dependency scanning.

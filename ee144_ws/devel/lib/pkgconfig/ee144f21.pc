@@ -1,4 +1,4 @@
-prefix=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel
+prefix=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel
 
 Name: ee144f21
 Description: Description of ee144f21

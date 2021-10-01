@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for _interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
 include interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/progress.make
 
 interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_turret_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg/TurretJoyControl.msg 
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_turret_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/msg/TurretJoyControl.msg 
 
 _interbotix_turret_control_generate_messages_check_deps_TurretJoyControl: interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl
 _interbotix_turret_control_generate_messages_check_deps_TurretJoyControl: interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/build.make
@@ -67,10 +67,10 @@ interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_in
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/build
 
 interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && $(CMAKE_COMMAND) -P CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control && $(CMAKE_COMMAND) -P CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/clean
 
 interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_turret_control/CMakeFiles/_interbotix_turret_control_generate_messages_check_deps_TurretJoyControl.dir/depend
 

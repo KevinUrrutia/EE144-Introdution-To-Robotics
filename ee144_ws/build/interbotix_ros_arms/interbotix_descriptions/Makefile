@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_descriptions/CMakeFiles/progress.marks
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles 0
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_descriptions/CMakeFiles/progress.marks
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/clean
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/preinstall
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/preinstall
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ nav_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/CMake
 
 # fast build rule for target.
 nav_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ nav_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_descriptions/C
 
 # fast build rule for target.
 nav_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 .PHONY : nav_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ nav_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptions/CMa
 
 # fast build rule for target.
 nav_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ nav_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions/CMak
 
 # fast build rule for target.
 nav_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
 .PHONY : nav_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ map_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_descriptions/C
 
 # fast build rule for target.
 map_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
 .PHONY : map_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ map_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions/CMak
 
 # fast build rule for target.
 map_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_eus.dir/build
 .PHONY : map_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ actionlib_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descriptions
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ roscpp_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions/CMakeF
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ geometry_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ actionlib_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptio
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ map_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions/CMak
 
 # fast build rule for target.
 map_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
 .PHONY : map_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ _catkin_empty_exported_target: interbotix_ros_arms/interbotix_descriptions/CMake
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ visualization_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_descrip
 
 # fast build rule for target.
 visualization_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
 .PHONY : visualization_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ actionlib_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions/CMa
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ tf_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions/CMakeFiles
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ rosgraph_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_descripti
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ roscpp_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptions/CMake
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ roscpp_generate_messages_nodejs: interbotix_ros_arms/interbotix_descriptions/CMa
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ rosgraph_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_description
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ tf_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions/CMakeFiles
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ interbotix_descriptions_xacro_generated_to_devel_space_: interbotix_ros_arms/int
 
 # fast build rule for target.
 interbotix_descriptions_xacro_generated_to_devel_space_/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/interbotix_descriptions_xacro_generated_to_devel_space_.dir/build
 .PHONY : interbotix_descriptions_xacro_generated_to_devel_space_/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ roscpp_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions/CMakeF
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ visualization_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_descri
 
 # fast build rule for target.
 visualization_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
 .PHONY : visualization_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ geometry_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ sensor_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_description
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ actionlib_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptions/CM
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ actionlib_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_description
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ actionlib_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/CMak
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ rosgraph_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ rosgraph_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ tf2_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions/CMak
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -642,12 +642,12 @@ geometry_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_description
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -657,12 +657,12 @@ geometry_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_descripti
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -672,12 +672,12 @@ visualization_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descript
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -687,12 +687,12 @@ geometry_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -702,12 +702,12 @@ map_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/CMake
 
 # fast build rule for target.
 map_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_py.dir/build
 .PHONY : map_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -717,12 +717,12 @@ tf2_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions/CMak
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -732,12 +732,12 @@ actionlib_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_descript
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -747,12 +747,12 @@ tf2_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/CMake
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -762,12 +762,12 @@ tf2_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptions/CMa
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -777,12 +777,12 @@ sensor_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptions/
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -792,12 +792,12 @@ tf2_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_descriptions/C
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -807,12 +807,12 @@ rosgraph_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -822,12 +822,12 @@ tf_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptions/CMakeFile
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -837,12 +837,12 @@ sensor_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions/C
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -852,12 +852,12 @@ actionlib_generate_messages_nodejs: interbotix_ros_arms/interbotix_descriptions/
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -867,12 +867,12 @@ actionlib_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_description
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -882,12 +882,12 @@ sensor_msgs_generate_messages_eus: interbotix_ros_arms/interbotix_descriptions/C
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -897,12 +897,12 @@ visualization_msgs_generate_messages_nodejs: interbotix_ros_arms/interbotix_desc
 
 # fast build rule for target.
 visualization_msgs_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
 .PHONY : visualization_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -912,12 +912,12 @@ actionlib_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions/CMa
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -927,12 +927,12 @@ sensor_msgs_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/CM
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -942,12 +942,12 @@ roscpp_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/CMakeFi
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -957,12 +957,12 @@ tf_generate_messages_nodejs: interbotix_ros_arms/interbotix_descriptions/CMakeFi
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -972,12 +972,12 @@ map_msgs_generate_messages_lisp: interbotix_ros_arms/interbotix_descriptions/CMa
 
 # fast build rule for target.
 map_msgs_generate_messages_lisp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
 .PHONY : map_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -987,12 +987,12 @@ tf_generate_messages_py: interbotix_ros_arms/interbotix_descriptions/CMakeFiles/
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1002,12 +1002,12 @@ nav_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_descriptions/CMak
 
 # fast build rule for target.
 nav_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f CMakeFiles/Makefile2 interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 .PHONY : interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1017,7 +1017,7 @@ visualization_msgs_generate_messages_cpp: interbotix_ros_arms/interbotix_descrip
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(MAKE) -f interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make interbotix_ros_arms/interbotix_descriptions/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 # Help Target
@@ -1101,6 +1101,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

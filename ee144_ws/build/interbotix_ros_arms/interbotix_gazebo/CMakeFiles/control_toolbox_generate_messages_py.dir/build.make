@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for control_toolbox_generate_messages_py.
 
@@ -63,10 +63,10 @@ interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messag
 .PHONY : interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messages_py.dir/build
 
 interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messages_py.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/control_toolbox_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_gazebo && $(CMAKE_COMMAND) -P CMakeFiles/control_toolbox_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messages_py.dir/clean
 
 interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messages_py.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_gazebo /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_gazebo /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_gazebo /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_gazebo /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_gazebo/CMakeFiles/control_toolbox_generate_messages_py.dir/depend
 

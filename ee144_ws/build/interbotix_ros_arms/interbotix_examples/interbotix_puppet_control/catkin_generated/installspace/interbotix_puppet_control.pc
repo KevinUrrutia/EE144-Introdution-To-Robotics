@@ -1,4 +1,4 @@
-prefix=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/install
+prefix=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/install
 
 Name: interbotix_puppet_control
 Description: Description of interbotix_puppet_control

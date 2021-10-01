@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1934,6 +1934,32 @@ interbotix_sdk_generate_messages_eus/fast:
 .PHONY : interbotix_sdk_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named std_srvs_generate_messages_nodejs
+
+# Build rule for target.
+std_srvs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
+.PHONY : std_srvs_generate_messages_nodejs
+
+# fast build rule for target.
+std_srvs_generate_messages_nodejs/fast:
+	$(MAKE) -f interbotix_ros_arms/interbotix_sdk/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_sdk/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+.PHONY : std_srvs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named _interbotix_sdk_generate_messages_check_deps_JointCommands
+
+# Build rule for target.
+_interbotix_sdk_generate_messages_check_deps_JointCommands: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _interbotix_sdk_generate_messages_check_deps_JointCommands
+.PHONY : _interbotix_sdk_generate_messages_check_deps_JointCommands
+
+# fast build rule for target.
+_interbotix_sdk_generate_messages_check_deps_JointCommands/fast:
+	$(MAKE) -f interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_JointCommands.dir/build.make interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_JointCommands.dir/build
+.PHONY : _interbotix_sdk_generate_messages_check_deps_JointCommands/fast
+
+#=============================================================================
 # Target rules for targets named _interbotix_sdk_generate_messages_check_deps_FirmwareGains
 
 # Build rule for target.
@@ -1960,30 +1986,17 @@ _interbotix_sdk_generate_messages_check_deps_RegisterValues/fast:
 .PHONY : _interbotix_sdk_generate_messages_check_deps_RegisterValues/fast
 
 #=============================================================================
-# Target rules for targets named std_srvs_generate_messages_nodejs
+# Target rules for targets named _interbotix_sdk_generate_messages_check_deps_SingleCommand
 
 # Build rule for target.
-std_srvs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_nodejs
-.PHONY : std_srvs_generate_messages_nodejs
+_interbotix_sdk_generate_messages_check_deps_SingleCommand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _interbotix_sdk_generate_messages_check_deps_SingleCommand
+.PHONY : _interbotix_sdk_generate_messages_check_deps_SingleCommand
 
 # fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	$(MAKE) -f interbotix_ros_arms/interbotix_sdk/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make interbotix_ros_arms/interbotix_sdk/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named _interbotix_sdk_generate_messages_check_deps_JointCommands
-
-# Build rule for target.
-_interbotix_sdk_generate_messages_check_deps_JointCommands: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _interbotix_sdk_generate_messages_check_deps_JointCommands
-.PHONY : _interbotix_sdk_generate_messages_check_deps_JointCommands
-
-# fast build rule for target.
-_interbotix_sdk_generate_messages_check_deps_JointCommands/fast:
-	$(MAKE) -f interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_JointCommands.dir/build.make interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_JointCommands.dir/build
-.PHONY : _interbotix_sdk_generate_messages_check_deps_JointCommands/fast
+_interbotix_sdk_generate_messages_check_deps_SingleCommand/fast:
+	$(MAKE) -f interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_SingleCommand.dir/build.make interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_SingleCommand.dir/build
+.PHONY : _interbotix_sdk_generate_messages_check_deps_SingleCommand/fast
 
 #=============================================================================
 # Target rules for targets named interbotix_sdk_generate_messages_lisp
@@ -2036,19 +2049,6 @@ _interbotix_sdk_generate_messages_check_deps_OperatingModes: cmake_check_build_s
 _interbotix_sdk_generate_messages_check_deps_OperatingModes/fast:
 	$(MAKE) -f interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_OperatingModes.dir/build.make interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_OperatingModes.dir/build
 .PHONY : _interbotix_sdk_generate_messages_check_deps_OperatingModes/fast
-
-#=============================================================================
-# Target rules for targets named _interbotix_sdk_generate_messages_check_deps_SingleCommand
-
-# Build rule for target.
-_interbotix_sdk_generate_messages_check_deps_SingleCommand: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _interbotix_sdk_generate_messages_check_deps_SingleCommand
-.PHONY : _interbotix_sdk_generate_messages_check_deps_SingleCommand
-
-# fast build rule for target.
-_interbotix_sdk_generate_messages_check_deps_SingleCommand/fast:
-	$(MAKE) -f interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_SingleCommand.dir/build.make interbotix_ros_arms/interbotix_sdk/CMakeFiles/_interbotix_sdk_generate_messages_check_deps_SingleCommand.dir/build
-.PHONY : _interbotix_sdk_generate_messages_check_deps_SingleCommand/fast
 
 #=============================================================================
 # Target rules for targets named interbotix_diagnostic_tool_generate_messages_cpp
@@ -3252,15 +3252,15 @@ help:
 	@echo "... control_msgs_generate_messages_cpp"
 	@echo "... control_msgs_generate_messages_nodejs"
 	@echo "... interbotix_sdk_generate_messages_eus"
-	@echo "... _interbotix_sdk_generate_messages_check_deps_FirmwareGains"
-	@echo "... _interbotix_sdk_generate_messages_check_deps_RegisterValues"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... _interbotix_sdk_generate_messages_check_deps_JointCommands"
+	@echo "... _interbotix_sdk_generate_messages_check_deps_FirmwareGains"
+	@echo "... _interbotix_sdk_generate_messages_check_deps_RegisterValues"
+	@echo "... _interbotix_sdk_generate_messages_check_deps_SingleCommand"
 	@echo "... interbotix_sdk_generate_messages_lisp"
 	@echo "... interbotix_sdk_generate_messages"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... _interbotix_sdk_generate_messages_check_deps_OperatingModes"
-	@echo "... _interbotix_sdk_generate_messages_check_deps_SingleCommand"
 	@echo "... interbotix_diagnostic_tool_generate_messages_cpp"
 	@echo "... _interbotix_diagnostic_tool_generate_messages_check_deps_MotorTemps"
 	@echo "... interbotix_diagnostic_tool_generate_messages"

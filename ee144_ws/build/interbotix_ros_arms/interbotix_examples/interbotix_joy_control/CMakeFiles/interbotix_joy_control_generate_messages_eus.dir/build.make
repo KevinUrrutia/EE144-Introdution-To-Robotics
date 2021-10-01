@@ -43,32 +43,32 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src
+CMAKE_SOURCE_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build
+CMAKE_BINARY_DIR = /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build
 
 # Utility rule file for interbotix_joy_control_generate_messages_eus.
 
 # Include the progress variables for this target.
 include interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/progress.make
 
-interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l
-interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l
+interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l
+interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l
 
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg/ArmJoyControl.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from interbotix_joy_control/ArmJoyControl.msg"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg/ArmJoyControl.msg -Iinterbotix_joy_control:/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_joy_control -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg/ArmJoyControl.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from interbotix_joy_control/ArmJoyControl.msg"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg/ArmJoyControl.msg -Iinterbotix_joy_control:/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p interbotix_joy_control -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg
 
-/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for interbotix_joy_control"
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control interbotix_joy_control std_msgs
+/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for interbotix_joy_control"
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && ../../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control interbotix_joy_control std_msgs
 
 interbotix_joy_control_generate_messages_eus: interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus
-interbotix_joy_control_generate_messages_eus: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l
-interbotix_joy_control_generate_messages_eus: /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l
+interbotix_joy_control_generate_messages_eus: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/msg/ArmJoyControl.l
+interbotix_joy_control_generate_messages_eus: /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/devel/share/roseus/ros/interbotix_joy_control/manifest.l
 interbotix_joy_control_generate_messages_eus: interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/build.make
 
 .PHONY : interbotix_joy_control_generate_messages_eus
@@ -79,10 +79,10 @@ interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interb
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/build
 
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/clean:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control && $(CMAKE_COMMAND) -P CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/clean
 
 interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/depend:
-	cd /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevin/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/src/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control /home/kevinurrutia/EE144-Introdution-To-Robotics/ee144_ws/build/interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interbotix_ros_arms/interbotix_examples/interbotix_joy_control/CMakeFiles/interbotix_joy_control_generate_messages_eus.dir/depend
 
