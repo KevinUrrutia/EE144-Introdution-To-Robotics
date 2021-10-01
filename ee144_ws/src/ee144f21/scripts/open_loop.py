@@ -19,7 +19,7 @@ class TurtleBot():
         i = 0
         while not rospy.is_shutdown():
             if i is not 4:
-                vel.linear.x += 0.4
+                vel.linear.x += 4
                 vel.angular.z += 90
                 i += 1
                 rospy.spin(10)
