@@ -38,7 +38,7 @@ class TurtleBot():
 
       	        time.sleep(1)
 	
-                time_end = time.time() + 3
+                time_end = time.time() + 3.2
                 while time.time() < time_end:
                     vel.linear.x = 0
                     vel.angular.z = pi/4
