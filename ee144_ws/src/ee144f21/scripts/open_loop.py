@@ -43,12 +43,7 @@ class TurtleBot():
 
       	        time.sleep(1)
 	
-<<<<<<< HEAD
-                time_end = time.time() + 3.2
-                while time.time() < time_end:
-=======
-		for j in range(18):
->>>>>>> 331bafc0006e75748fb472f2d95e0fdb936dd080
+		for j in range(16):
                     vel.linear.x = 0
                     vel.angular.z = pi/4
                     self.vel_pub.publish(vel)
