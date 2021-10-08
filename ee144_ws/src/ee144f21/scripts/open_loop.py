@@ -29,21 +29,31 @@ class TurtleBot():
         i = 0
         while not rospy.is_shutdown():
             if i < 4:      
-                time_end = time.time() + 14
-	        while time.time() < time_end:
+                for j in range(80):
                     vel.linear.x = 0.5
                     vel.angular.z = 0
                     self.vel_pub.publish(vel)
                     self.rate.sleep()
+                #time_end = time.time() + 14
+	        #while time.time() < time_end:
+                    #vel.linear.x = 0.5
+                    #vel.angular.z = 0
+                    #self.vel_pub.publish(vel)
+                    #self.rate.sleep()
 
       	        time.sleep(1)
 	
-                time_end = time.time() + 3
-                while time.time() < time_end:
+		for j in range(18):
                     vel.linear.x = 0
                     vel.angular.z = pi/4
                     self.vel_pub.publish(vel)
-                    self.rate.sleep()  
+                    self.rate.sleep()
+                #time_end = time.time() + 3
+                #while time.time() < time_end:
+                    #vel.linear.x = 0
+                    #vel.angular.z = pi/4
+                    #self.vel_pub.publish(vel)
+                    #self.rate.sleep()  
          
                 time.sleep(1)  
                 i += 1
