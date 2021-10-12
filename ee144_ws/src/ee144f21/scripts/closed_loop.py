@@ -2,12 +2,13 @@
 
 from math import pi, sqrt, atan2, cos, sin
 import numpy as np
+import time
 
 import rospy
 import tf
 from std_msgs.msg import Empty
 from nav_msgs.msg import Odometry
-from geometry_msg.msg import Twist, Pose2D
+from geometry_msgs.msg import Twist, Pose2D
 
 class Controller:
     def __init__(self, P=0.0, D=0.0, set_point=0):
@@ -57,23 +58,28 @@ class Turtlebot():
             rospy.loginfo("Action terminated.")
         finally:
             #save trajectory in .csv file
-            np.savetext('trajectory.csv', np.array(self.trajectory), fmt='%f', delimiter=',')
+            np.savetxt('trajectory.csv', np.array(self.trajectory), fmt='%f', delimiter=',')
 
     def run(self):
+        angle = pi/2
+	vel = Twist()
         PID = Controller()
-        PID.set_point(pi/2)
+        PID.setPoint(angle)
         PID.setPD(0.99, 0.70)
 
         i = 0
         while not rospy.is_shutdown():
             if(i < 4):
-                for j in range(80):
+                for j in range(74):
                     vel.linear.x = 0.5
                     vel.angular.z = 0
                     self.vel_pub.publish(vel)
                     self.rate.sleep()
 
-                while(PID.previous_error > 0.1):
+		time.sleep(3)
+
+                while((abs(PID.previous_error) > 0.01) or (PID.previous_error == 0.0)):
+                    print('-----------------------------')
                     PID_update = PID.update(self.pose.theta)
                     vel.linear.x = 0
                     vel.angular.z = PID_update
@@ -81,8 +87,16 @@ class Turtlebot():
                     self.rate.sleep()
 
                 i +=1
+                rospy.logwarn(i)
+		if (i == 2):
+		    angle = -pi/2
+                    print("++++++++++++++++++++++++++")
+		else:
+                    angle += pi/2
+
+		PID.setPoint(angle)
             else:
-                break;
+                break
 
     def odom_callback(self, msg):
         #get pose = (x, y, theta) from odometry topic
