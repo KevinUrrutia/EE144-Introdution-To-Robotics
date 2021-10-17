@@ -65,7 +65,7 @@ class Turtlebot():
 	vel = Twist()
         PID = Controller()
         #PID.setPoint(angle)
-        PID.setPD(0.99, 0.70)
+        PID.setPD(0.95, 0.82)
 
         i = 0
         while not rospy.is_shutdown():
@@ -86,7 +86,7 @@ class Turtlebot():
                     print("++++++++++++++++++++++++++")
 		else:
                     angle += pi/2
-                
+
                 PID.setPoint(angle)
                 while((abs(PID.previous_error) > 0.01) or (PID.previous_error == 0.0)):
                     print('-----------------------------')
