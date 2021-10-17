@@ -61,23 +61,33 @@ class Turtlebot():
             np.savetxt('trajectory.csv', np.array(self.trajectory), fmt='%f', delimiter=',')
 
     def run(self):
-        angle = pi/2
+        angle = 0
 	vel = Twist()
         PID = Controller()
-        PID.setPoint(angle)
+        #PID.setPoint(angle)
         PID.setPD(0.99, 0.70)
 
         i = 0
         while not rospy.is_shutdown():
             if(i < 4):
+                PID.setPoint(angle)
                 for j in range(74):
                     vel.linear.x = 0.5
-                    vel.angular.z = 0
+                    vel.angular.z = PID.update(self.pose.theta)
                     self.vel_pub.publish(vel)
                     self.rate.sleep()
 
 		time.sleep(3)
 
+                i +=1
+                rospy.logwarn(i)
+		if (i == 3):
+		    angle = -pi/2
+                    print("++++++++++++++++++++++++++")
+		else:
+                    angle += pi/2
+                
+                PID.setPoint(angle)
                 while((abs(PID.previous_error) > 0.01) or (PID.previous_error == 0.0)):
                     print('-----------------------------')
                     PID_update = PID.update(self.pose.theta)
@@ -85,16 +95,6 @@ class Turtlebot():
                     vel.angular.z = PID_update
                     self.vel_pub.publish(vel)
                     self.rate.sleep()
-
-                i +=1
-                rospy.logwarn(i)
-		if (i == 2):
-		    angle = -pi/2
-                    print("++++++++++++++++++++++++++")
-		else:
-                    angle += pi/2
-
-		PID.setPoint(angle)
             else:
                 break
 
