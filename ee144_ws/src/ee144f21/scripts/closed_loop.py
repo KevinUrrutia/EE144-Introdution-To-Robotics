@@ -65,13 +65,14 @@ class Turtlebot():
 	vel = Twist()
         PID = Controller()
         #PID.setPoint(angle)
-        PID.setPD(0.95, 0.82)
+        PID.setPD(0.99, 0.81)
 
         i = 0
+        k = 74
         while not rospy.is_shutdown():
             if(i < 4):
                 PID.setPoint(angle)
-                for j in range(74):
+                for j in range(k):
                     vel.linear.x = 0.5
                     vel.angular.z = PID.update(self.pose.theta)
                     self.vel_pub.publish(vel)
@@ -81,6 +82,14 @@ class Turtlebot():
 
                 i +=1
                 rospy.logwarn(i)
+                if i == 2:
+                    k = 100
+                elif i == 3:
+                    k = 90
+                else :
+                    k = 74
+
+
 		if (i == 3):
 		    angle = -pi/2
                     print("++++++++++++++++++++++++++")
