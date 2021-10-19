@@ -15,33 +15,52 @@ def forward_kinematics(joints):
     link3z = 0.150
     link4x = 0.150
 
-    joint1 = joint[0]
-    joint2 = joint[1]
-    joint3 = joint[2]
+    joint1 = joints[0]
+    joint2 = joints[1]
+    joint3 = joints[2]
   
     #Find the Home Postion of the robotic arm
-    M = np.matrix([1,0,0,link3x + link4x],[0,1,0,0],[0,0,1,link1z + link2z + link3z], [0,0,0,1])
+    M = np.array([[1,0,0,link3x + link4x],[0,1,0,0],[0,0,1,link1z + link2z + link3z], [0,0,0,1]])
+    print(M)
     
     #Screw axis for joint 3	
-    S3 = np.matrix([0],[1],[0], [-0.254], [0], [0.05])
+    S3 = np.array([[0],[1],[0], [-(link1z + link2z + link3z)], [0], [link3x]])
     bracket_S3 = mr.VecTose3(S3) * joint3
+    #print(bracket_S3)
     exp_S3 = mr.MatrixExp6(bracket_S3)
+    print(exp_S3)
 
     #Screw axis for joint 2	
-    S2 = np.matrix([0],[1],[0], [-0.104], [0], [0])
+    S2 = np.array([[0],[1],[0], [-(link1z +link2z)], [0], [0]])
     bracket_S2 = mr.VecTose3(S2) * joint2
     exp_S2 = mr.MatrixExp6(bracket_S2)
+    print(exp_S2)
    
     #Screw axis for joint 1	
-    S1 = np.matrix([0],[1],[0], [0], [0], [0])
+    S1 = np.array([[0],[0],[1], [0], [0], [0]])
     bracket_S1 = mr.VecTose3(S1) * joint1
+    #print(bracket_S1)
     exp_S1 = mr.MatrixExp6(bracket_S1)
+    print(exp_S1)
 
-    EOF = exp_S1 * exp_S2 * exp_S3 * M
+    EOF = np.matmul(exp_S1, exp_S2)
+    EOF = np.matmul(EOF, exp_S3)
+    EOF = np.matmul(EOF, M)
+    print(EOF)
     x = EOF[0][3]
     y = EOF[1][3]
     z = EOF[2][3]
 
     #Pull out x,y,z from matrix
+    print(x)
+    print(y)
+    print(z)
 
     return [x, y, z]
+
+
+if __name__ == '__main__':
+    test = np.array([0.52360, -1.04720, -0.52360])
+    whatever = forward_kinematics(test)
+    print(whatever)
+

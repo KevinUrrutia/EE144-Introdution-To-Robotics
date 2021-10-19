@@ -62,48 +62,70 @@ class Turtlebot():
 
     def run(self):
         angle = 0
+        line_x = 4 
+        line_y = 0
 	vel = Twist()
-        PID = Controller()
-        #PID.setPoint(angle)
-        PID.setPD(0.99, 0.81)
+        PID_angle = Controller()
+        PID_angle.setPD(0.99, 0.81)
+
+        PID_line_x = Controller()
+        PID_line_x.setPD(0.40, 0.30)
+
+        PID_line_y = Controller()
+        PID_line_y.setPD(0.70, 0.60)
 
         i = 0
-        k = 74
         while not rospy.is_shutdown():
+            
             if(i < 4):
-                PID.setPoint(angle)
-                for j in range(k):
-                    vel.linear.x = 0.5
-                    vel.angular.z = PID.update(self.pose.theta)
+                if (i == 0):
+                    line_x = 4
+                    line_y = 0
+                elif (i == 1): 
+                    print("%%%%%%%%%%%%%%%%%%%%%%%%")
+                    line_x = 4
+                    line_y = 4   
+	        elif (i == 2):
+                    line_x = 0
+                    line_y = 4
+                elif (i == 3): 
+                    line_x = 0
+                    line_y = 0
+
+                PID_angle.setPoint(angle)
+                PID_line_x.setPoint(line_x)
+                PID_line_y.setPoint(line_y)
+                while((abs(PID_line_x.previous_error) > 0.1) or (PID_line_x.previous_error == 0.0)):
+                    vel.linear.x = PID_line_x.update(self.pose.x)
+                    vel.angular.z = PID_angle.update(self.pose.theta)
                     self.vel_pub.publish(vel)
                     self.rate.sleep()
 
+                while((abs(PID_line_y.previous_error) > 0.1) or (PID_line_y.previous_error == 0.0)):
+                   vel.linear.y = PID_line_y.update(self.pose.y)
+                   vel.angular.z = PID_angle.update(self.pose.theta)
+                   self.vel_pub.publish(vel)
+                   self.rate.sleep()
+                        
+
 		time.sleep(3)
-
-                i +=1
-                rospy.logwarn(i)
-                if i == 2:
-                    k = 100
-                elif i == 3:
-                    k = 90
-                else :
-                    k = 74
-
-
+                
+	
 		if (i == 3):
 		    angle = -pi/2
                     print("++++++++++++++++++++++++++")
 		else:
                     angle += pi/2
 
-                PID.setPoint(angle)
-                while((abs(PID.previous_error) > 0.01) or (PID.previous_error == 0.0)):
+                PID_angle.setPoint(angle)
+                while((abs(PID_angle.previous_error) > 0.01) or (PID_angle.previous_error == 0.0)):
                     print('-----------------------------')
-                    PID_update = PID.update(self.pose.theta)
+                    PID_update = PID_angle.update(self.pose.theta)
                     vel.linear.x = 0
                     vel.angular.z = PID_update
                     self.vel_pub.publish(vel)
                     self.rate.sleep()
+		i += 1
             else:
                 break
 
