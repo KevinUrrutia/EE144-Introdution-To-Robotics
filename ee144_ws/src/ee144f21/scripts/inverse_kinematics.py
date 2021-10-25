@@ -15,39 +15,32 @@ def inverse_kinematics(position):
     y = position[1]
     z = position[2]
 
-    alpha = atan2(link3x, link3z)
-    #print(alpha)
-    gamma = atan2(z + 0.1039, x) 
-    #print(gamma)
+    alpha = acos((pow(0.15,2) + pow(0.1581, 2) - pow(0.05, 2))/(2*(0.15)*(0.1581)))
+    print(alpha)
+
+    gamma = atan2((z-0.1039), (sqrt(pow(x,2) + pow(y,2))))
+    print(gamma)
     
-    b_length1 = sqrt((link3x ** 2) + (link3z ** 2))
-    print(b_length1)
-    c_length1 = z / (sin(gamma))
-    print(c_length1)
-    a_length1 = link4x
-    print(a_length1)
-    beta_2 = acos(((c_length1 ** 2) - (a_length1 **2) - (b_length1 ** 2)) /(-2* a_length1 * b_length1))
-    print(beta_2)
- 
-    #a_length2 = b_length1
-    #print(a_length2)
-    #b_length2 = c_length1
-    #print(b_length2)
-    #c_length2 = a_length1
-    #c_length_2_sq = c_length2 ** 2
-    #print(c_length_2_sq)
-    #a_length_2_sq = a_length2 ** 2
-    #print(a_length_2_sq)
-    #b_length_2_sq = b_length2 ** 2
-    #print(b_length_2_sq)
-    #beta_1 = acos(((c_length2 ** 2) - (a_length2 **2) - (b_length2 ** 2)) /(-2 * a_length2 * b_length2))
+    C_1 = sqrt(pow(x,2) + pow(y,2) + pow((z - 0.1039), 2))
+    print(C_1)
 
-    theta_2 = 90 - alpha - gamma - beta_1
+    beta_2 = acos((pow(0.1581,2) + pow(0.15, 2) - pow((C_1), 2))/(2*(0.15)*(0.1581)))
+    #print(beta_2)
 
-    tau = 90 - alpha
-    theta_3 = tau + beta_2 - 180
+    beta_1 = acos((pow(0.1581,2) + pow(C_1, 2) - pow(0.15, 2))/(2*(C_1)*(0.1581)))
+    print(beta_1)
+    
+    if (y >= 0):
+        theta_2 = pi/2 - (alpha + gamma + beta_1)
+    else:
+        angle = gamma - (alpha + beta_1)
+        theta_2 = angle - (pi/2)
+    
 
-    theta_1 = atan2(y, x)
+    tau = (pi/2) - alpha
+    theta_3 = tau + beta_2 - pi
+
+    theta_1 = atan(y/x)
 
     joint1 = theta_1
     joint2 = theta_2
@@ -56,4 +49,4 @@ def inverse_kinematics(position):
     return [joint1, joint2, joint3]
 
 
-print(inverse_kinematics([-0.02590,-0.01495,0.35220]))
+print(inverse_kinematics([-0.02590,-0.01495,0.35212]))
