@@ -42,3 +42,4 @@ sudo apt-get install ros-kinetic-dynamixel-workbench-toolbox
 sudo apt-get install ros-kinetic-moveit-ros-visualization
 sudo apt-get install ros-kinetic-moveit-planners-ompl
 sudo apt-get install ros-kinetic-moveit-simple-controller-manager
+sudo apt-get install ros-kinetic-moveit-visual-tools
