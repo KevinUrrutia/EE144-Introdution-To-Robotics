@@ -59,15 +59,12 @@ class Turtlebot():
 	print(self.previous_velocity[1])
         #calculate the orientation of the robot
 	theta = atan2((next_waypoint[1] - self.previous_waypoint[1]),(next_waypoint[0] - self.previous_waypoint[0]))
-	print(theta)
         #theta = atan2((current_waypoint[1] - self.previous_waypoint[1]),(current_waypoint[0] - self.previous_waypoint[0]))
         
         #decompose the velocity for the boundary conditions
         #check if last waypoint
         vx_end = self.vel_ref * cos(theta)
         vy_end = self.vel_ref * sin(theta)
-	print(vx_end)
-	print(vy_end)
 
         #change to set the trajectory
         T = 4
@@ -75,26 +72,19 @@ class Turtlebot():
         #coeffcient array calculate from polynomial function
         c_x = self.polynomial_time_scaling_3rd_order(self.previous_waypoint[0], self.previous_velocity[0], current_waypoint[0], vx_end, T)
         c_y = self.polynomial_time_scaling_3rd_order(self.previous_waypoint[1], self.previous_velocity[1], current_waypoint[1], vy_end, T)
-	print(c_x)
         calc_vx = 0
         calc_vy = 0
-	print(c_x[2])
-	print(c_x[1])
-	print(c_x[0])
         #calculate the changing velocity based on time
         for i in range(T * 10 + 1):
             calc_vx = c_x[2] + 2*c_x[1]*(i/10) + 3*c_x[0]*pow((i/10),2)
             calc_vy = c_y[2] + 2*c_y[1]*(i/10) + 3*c_y[0]*pow((i/10),2)
 	    velocity  = sqrt(pow(calc_vy, 2) + pow(calc_vx, 2))
-	    print(velocity)
             self.vel.linear.x = velocity
 
             vel_theta = atan2(calc_vy, calc_vx)
 
             #compute the delta theta
             diff_theta = vel_theta - self.pose.theta
-	    print(i)
-            print(calc_vx)
             #change the values of Kp
             kp = 10    
             P_term = kp * diff_theta
@@ -105,14 +95,15 @@ class Turtlebot():
             self.vel_pub.publish(self.vel)
             self.rate.sleep()
 
-	print(calc_vx)
-        self.previous_waypoint[0] = current_waypoint[0]
-        self.previous_waypoint[1] = current_waypoint[1]
+	print(calc_vx[0])
+	print(calc_vy[0])
+        self.previous_waypoint = current_waypoint
+	print(current_waypoint[0])
+	print(self.previous_waypoint[0])
 
-        self.previous_velocity[0] = calc_vx[0]
-        self.previous_velocity[1] = calc_vy[0]
+        self.previous_velocity = [calc_vx, calc_vy]
 	print(self.previous_velocity[0])
-
+	print(self.previous_velocity[1])
 
     def polynomial_time_scaling_3rd_order(self, p_start, v_start, p_end, v_end, T):
         #input: p,v: postion and velocity of start/end point
