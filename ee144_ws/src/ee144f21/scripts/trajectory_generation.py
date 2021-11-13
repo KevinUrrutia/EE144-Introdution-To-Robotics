@@ -31,7 +31,7 @@ class Turtlebot():
         #initial conditions
         self.previous_waypoint = np.array([0,0])
         self.previous_velocity = np.array([0,0])
-        self.vel_ref = 0.3
+        self.vel_ref = 0.2
         self.vel = Twist()
 
         try:
@@ -47,16 +47,21 @@ class Turtlebot():
                       [1.5, 0.5], [1.5, 0], [1.5, -0.5], [1, -0.5], [1, 0],\
                       [1, 0.5], [0.5, 0.5], [0.5, 0], [0, 0], [0, 0]]
         for i in range(len(waypoints)-1):
-            self.move_to_point(waypoints[i], waypoints[i+1])
+            self.move_to_point(waypoints[i], waypoints[i+1], i)
 
 
-    def move_to_point(self, current_waypoint, next_waypoint):
+    def move_to_point(self, current_waypoint, next_waypoint, count):
         #generate polynomial trajectory and move to current_waypoint 
         #next_waypoint is to help determine the velocity to pass current waypoint
       
-        print("*******************************************************************************")
-	print(self.previous_velocity[0])
-	print(self.previous_velocity[1])
+	print("previous_velocity_x_init: ") 
+        print(self.previous_velocity[0])
+	print("previous_velocity_y_init: ") 
+        print(self.previous_velocity[1]) 
+    
+        if(count == 15):
+            current_waypoint = [-0.2, -0.1]    
+
         #calculate the orientation of the robot
 	theta = atan2((next_waypoint[1] - self.previous_waypoint[1]),(next_waypoint[0] - self.previous_waypoint[0]))
         #theta = atan2((current_waypoint[1] - self.previous_waypoint[1]),(current_waypoint[0] - self.previous_waypoint[0]))
@@ -75,35 +80,53 @@ class Turtlebot():
         calc_vx = 0
         calc_vy = 0
         #calculate the changing velocity based on time
-        for i in range(T * 10 + 1):
+        for i in range(T * 10 ):
             calc_vx = c_x[2] + 2*c_x[1]*(i/10) + 3*c_x[0]*pow((i/10),2)
             calc_vy = c_y[2] + 2*c_y[1]*(i/10) + 3*c_y[0]*pow((i/10),2)
 	    velocity  = sqrt(pow(calc_vy, 2) + pow(calc_vx, 2))
             self.vel.linear.x = velocity
-
+             
+            #calculate the angle between the velocities as a function of time
             vel_theta = atan2(calc_vy, calc_vx)
 
             #compute the delta theta
             diff_theta = vel_theta - self.pose.theta
-            #change the values of Kp
-            kp = 10    
-            P_term = kp * diff_theta
-            #print(P_term)
+            #print("diff_theta before adjust")
+            #print(diff_theta)
+            
+            #handle the excepetion where theta is an angle greater than pi or less than negative pi
+            if(diff_theta > pi): 
+                #print("diff_theta greater than pi")
+                diff_theta = diff_theta/2 - pi
+            elif(diff_theta < -pi):
+                #print("diff_theta less than -pi")
+                diff_theta = diff_theta/2 + pi
 
+            #calculate the values of P_term from the PI Controller
+            #print("diff_theta after adjust")
+            #print(diff_theta)
+            #change the values of Kp
+            kp = 11    
+            P_term = kp * diff_theta
+            #print("P_term: ")  
+            #print(P_term)
+  
+            #publish the velocities to the robot
             self.vel.angular.z = P_term
             #self.vel.angular.z = 0
             self.vel_pub.publish(self.vel)
             self.rate.sleep()
 
-	print(calc_vx[0])
-	print(calc_vy[0])
+        #update the previous waypoint and velocities for the contuinuity boundary
         self.previous_waypoint = current_waypoint
-	print(current_waypoint[0])
-	print(self.previous_waypoint[0])
+        print("Previous_waypoint_update: ")
+        print(self.previous_waypoint)
 
         self.previous_velocity = [calc_vx, calc_vy]
-	print(self.previous_velocity[0])
-	print(self.previous_velocity[1])
+	print("previous_velocity_x_end: ") 
+        print(self.previous_velocity[0])
+	print("previous_velocity_y_end: ")
+        print(self.previous_velocity[1])
 
     def polynomial_time_scaling_3rd_order(self, p_start, v_start, p_end, v_end, T):
         #input: p,v: postion and velocity of start/end point
