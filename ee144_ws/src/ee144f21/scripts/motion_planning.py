@@ -59,15 +59,21 @@ def get_path_from_A_star(start, goal, obstacles):
                     past_cost[nbr] = tentative_past_cost
 
                 if tentative_past_cost <= past_cost[nbr]:
+                    #update past cost with the lower value
                     past_cost[nbr] = tentative_past_cost
+                    #set the parent of the previous nbr
                     parent[nbr] = current[1]
+                    #calculate the estimated total cost based on past cost and the heuristic
                     est_total_cost = past_cost[nbr] + heuristic_distance(nbr, goal)
+                    #append to open list and sort based on the total cost
                     open_list.append([est_total_cost, nbr])
                     open_list.sort()
                 #print(open_list)       
     #print(parent)
+    #start from the goal to get path
     dict_index = goal 
     while(parent.get(dict_index) is not start):
+        #append to front of path
         path.insert(0, parent[dict_index])
         dict_index = parent[dict_index]
       

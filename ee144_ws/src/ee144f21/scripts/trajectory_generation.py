@@ -127,6 +127,9 @@ class Turtlebot():
         vx_end = self.vel_ref * cos(theta)
 
         vy_end = self.vel_ref * sin(theta)
+        if(count == 13):
+            vx_end = 0
+            vy_end = 0
 
 
         #change to set the trajectory
@@ -153,9 +156,7 @@ class Turtlebot():
             calc_vy = c_y[2] + 2*c_y[1]*(i/10) + 3*c_y[0]*pow((i/10),2)
 
 	    velocity  = sqrt(pow(calc_vy, 2) + pow(calc_vx, 2))
-            if(count == 14):
-                velocity = [0.5, 0]
-
+        
             self.vel.linear.x = velocity
 
              
@@ -211,8 +212,8 @@ class Turtlebot():
             #publish the velocities to the robot
 
             #self.vel.angular.z = 0
-            if (count == 14):
-                P_term = 0
+            #if (count == 14):
+                #P_term = 0
 
             self.vel.angular.z = P_term
             self.vel_pub.publish(self.vel)
@@ -238,6 +239,13 @@ class Turtlebot():
 	print("previous_velocity_y_end: ")
 
         print(self.previous_velocity[1])
+
+        if(count == 13):
+            print("+++++++++++++++++++++++")
+            self.vel.linear.x = 0.5
+            self.vel.angular.z = pi/2
+            self.vel_pub.publish(self.vel)
+            self.rate.sleep()
 
 
     def polynomial_time_scaling_3rd_order(self, p_start, v_start, p_end, v_end, T):
