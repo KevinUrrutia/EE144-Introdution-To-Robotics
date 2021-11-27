@@ -43,14 +43,19 @@ class Turtlebot():
             np.savetxt('trajectory.csv', np.array(self.trajectory), fmt='%f', delimiter=',')
 
     def run(self):
-        waypoints = [[0.5, 0], [0.5, -0.5], [1, -0.5], [1, 0], [1, 0.5],\
-                      [1.5, 0.5], [1.5, 0], [1.5, -0.5], [1, -0.5], [1, 0],\
-                      [1, 0.5], [0.5, 0.5], [0.5, 0], [0, 0], [0, 0]]
+        start = (0, 0) 
+        goal = (3, 3)
+        obstacles = [(2, 1), (2, 2), (3, 1), (0, 3)]
+        waypoints = self.get_path_from_A_star(start, goal, obstacles)
+        waypoints.insert(len(waypoints), waypoints[len(waypoints) - 1])
+        print(waypoints)
 
         for i in range(len(waypoints)-1):
-            self.move_to_point(waypoints[i], waypoints[i+1], i)
+            self.move_to_point(waypoints[i], waypoints[i+1], i, (len(waypoints)-1))
+            print("Current waypoint")
+            print(waypoints[i])
 
-    def move_to_point(self, current_waypoint, next_waypoint, count):
+    def move_to_point(self, current_waypoint, next_waypoint, count, length):
         #generate polynomial trajectory and move to current_waypoint 
         #next_waypoint is to help determine the velocity to pass current waypoint
 
@@ -68,7 +73,7 @@ class Turtlebot():
         #check if last waypoint
         vx_end = self.vel_ref * cos(theta)
         vy_end = self.vel_ref * sin(theta)
-        if(count == 13):
+        if(count == length - 1):
             vx_end = 0
             vy_end = 0
 
@@ -110,13 +115,7 @@ class Turtlebot():
             #change the values of Kp
             kp = 11    
             P_term = kp * diff_theta
-            #print("P_term: ")  
-            #print(P_term)
-
-            #publish the velocities to the robot
-            #self.vel.angular.z = 0
-            #if (count == 14):
-                #P_term = 0
+           
             self.vel.angular.z = P_term
             self.vel_pub.publish(self.vel)
             self.rate.sleep()
@@ -133,10 +132,10 @@ class Turtlebot():
 	print("previous_velocity_y_end: ")
         print(self.previous_velocity[1])
 
-        if(count == 13):
+        if(count == length - 1):
             print("+++++++++++++++++++++++")
-            self.vel.linear.x = 0.5
-            self.vel.angular.z = pi/2
+            self.vel.linear.x = 0.9
+            self.vel.angular.z = 0
             self.vel_pub.publish(self.vel)
             self.rate.sleep()
 
@@ -164,7 +163,7 @@ class Turtlebot():
         #return the euclidean distance between the cnadiate and the goal
         return sqrt(pow((goal[0] - candidate[0]), 2) + pow((goal[1] - candidate[1]), 2))
 
-    def get_path_from_A_star(start, goal, obstacles):
+    def get_path_from_A_star(self, start, goal, obstacles):
          # input  start: integer 2-tuple of the current grid, e.g., (0, 0)
          #        goal: integer 2-tuple  of the goal grid, e.g., (5, 1)
          #        obstacles: a list of grids marked as obstacles, e.g., [(2, -1), (2, 0), ...]
@@ -205,7 +204,7 @@ class Turtlebot():
                  print("REACHED GOAL")
                  break
 
-             for nbr in neighbors(current[1]):
+             for nbr in self.neighbors(current[1]):
                  if nbr not in closed_list and nbr not in obstacles: 
                      tentative_past_cost = past_cost[current[1]] + 1
                 
@@ -219,7 +218,7 @@ class Turtlebot():
                          #set the parent of the previous nbr
                          parent[nbr] = current[1]
                          #calculate the estimated total cost based on past cost and the heuristic
-                         est_total_cost = past_cost[nbr] + heuristic_distance(nbr, goal)
+                         est_total_cost = past_cost[nbr] + self.heuristic_distance(nbr, goal)
                          #append to open list and sort based on the total cost
                          open_list.append([est_total_cost, nbr])
                          open_list.sort()
@@ -250,8 +249,8 @@ class Turtlebot():
         if self.logging_counter == 100:
             self.logging_counter = 0
             self.trajectory.append([self.pose.x, self.pose.y])  # save trajectory
-            rospy.loginfo("odom: x=" + str(self.pose.x) +\
-                ";  y=" + str(self.pose.y) + ";  theta=" + str(yaw))     
+            #rospy.loginfo("odom: x=" + str(self.pose.x) +\
+                #";  y=" + str(self.pose.y) + ";  theta=" + str(yaw))     
 
 if __name__ == '__main__':
     whatever = Turtlebot()
