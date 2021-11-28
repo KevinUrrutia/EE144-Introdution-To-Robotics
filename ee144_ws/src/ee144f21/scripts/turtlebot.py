@@ -43,9 +43,9 @@ class Turtlebot():
             np.savetxt('trajectory.csv', np.array(self.trajectory), fmt='%f', delimiter=',')
 
     def run(self):
-        start = (0, 0) 
-        goal = (3, 3)
-        obstacles = [(2, 1), (2, 2), (3, 1), (0, 3)]
+        start = (0, 0)
+        goal = (9, 2)
+        obstacles = [(1, 0), (1, 1), (4, 1), (4, 2), (4, 3), (5, 1), (5, 2), (5, 3),(8, 0), (8, -1)]
         waypoints = self.get_path_from_A_star(start, goal, obstacles)
         waypoints.insert(len(waypoints), waypoints[len(waypoints) - 1])
         print(waypoints)
